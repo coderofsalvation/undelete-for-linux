@@ -1,5 +1,3 @@
-![](terminal.png)
-
 ## Installation
 
 Put this in your `~/.bashrc` or `/etc/profile`:
