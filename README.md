@@ -1,3 +1,14 @@
+## Usage
+
+```
+$ rm
+usage:
+                rm   <file_or_dir>        # move to trash
+                rrm  <file_or_dir>        # real remove (using /bin/rm)
+                unrm <file_or_dir>        # restore
+
+```
+
 ## Installation
 
 Put this in your `~/.bashrc` or `/etc/profile`:
@@ -16,17 +27,6 @@ rmusage(){ [[ -n "$1" ]] && return 1 || {
 	  return 0
   }
 }
-```
-
-## Usage
-
-```
-$ rm
-usage:
-                rm   <file_or_dir>        # move to trash
-                rrm  <file_or_dir>        # real remove (using /bin/rm)
-                unrm <file_or_dir>        # restore
-
 ```
 
 ## Why
